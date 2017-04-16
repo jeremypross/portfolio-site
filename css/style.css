@@ -1,57 +1,9 @@
-
-h1 {
-  text-align: center;
-}
-
-.parallax-bio {
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("./img/bio.jpg");
-  text-align: center;
-  height: 500px;
-}
-
-.parallax {
-  /* To fix the background image in place while the rest of the element moves */
-  background-attachment: fixed;
-  /* Position background image in the center and cover the element */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("http://jeremypross.com/img/cinqueterre.jpg");
-  height: 500px;
-}
-
-.parallax1 {
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  background-image: url("http://jeremypross.com/img/sunflowers.jpg");
-  height: 500px;
-}
-
-.parallax2 {
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("http://jeremypross.com/img/grand.jpg");
-  height: 500px;
-}
-
-.whitespace {
-  height: 500px;
-}
-
 * {
+  background-color: #FEFEFA;
   color: black;
   padding: 5px;
-  /*font-family: 'Raleway', sans-serif;*/
-  font-family: 'Helvetica', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Helvetica', sans-serif;*/
   -webkit-font-smoothing: antialiased;
 
 }
@@ -68,7 +20,13 @@ h1 {
 }
 
 h2 {
+  margin: 10px;
+  font-size: 1.9em;
   text-align: center;
+}
+
+h4 {
+  margin: 8px;
 }
 
 main {
@@ -84,13 +42,84 @@ nav ul {
   display: inline-block;
 }
 
+.tech {
+  list-style-type: none;
+}
+
+
+.project {
+  border-radius: 3px;
+  flex: 1;
+  margin: 50px 0;
+  padding: 40px;
+  text-align: center;
+}
+
+.parallax-bio {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("http://jeremypross.com/img/bio1.jpg");
+  text-align: center;
+  height: 500px;
+}
+
+.parallax {
+  /* To fix the background image in place while the rest of the element moves */
+  background-attachment: fixed;
+  /* Position background image in the center and cover the element */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("http://jeremypross.com/img/kitchensinkgraphic.jpg");
+  height: 500px;
+}
+
+.container {
+  display: flex;
+}
+
+.col {
+  border: 1px solid black;
+  flex: 1;
+}
+
+a.repo {
+  border: 1px solid black;
+  height: 50px;
+}
+
+.parallax1 {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-image: url("http://jeremypross.com/img/lastcallgraphic.jpg");
+  height: 500px;
+}
+
+.parallax2 {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("http://jeremypross.com/img/grand.jpg");
+  height: 500px;
+}
+
+.whitespace {
+  height: 400px;
+}
+
 .land {
   text-align: center;
   height: 500px;
 }
 
 .head {
-  margin-top: 120px;
+  margin-top: 10%;
 }
 
 #about {
@@ -124,7 +153,7 @@ nav ul {
   visibility: hidden;
   position: relative;
   animation-iteration-count: infinite;
-  top: 120px;
+  top: 50px;
 }
 
 
@@ -134,7 +163,8 @@ nav ul {
 
 .col {
   flex: 1;
-  border: 1px solid gray;
+  border: 2px solid gray;
+  border-radius: 4px;
   height: 250px;
   margin: 10px;
 }
@@ -145,15 +175,6 @@ nav ul {
 
 footer {
   text-align: center;
-}
-
-.project {
-  text-align: center;
-  height: 470px;
-  flex: 1;
-  border: 2px solid black;
-  margin: 10px;
-  border-radius: 3px;
 }
 
 @media(max-width: 700px) {
