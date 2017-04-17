@@ -78,7 +78,7 @@ a.repo {
   padding: 10px;
 }
 
-a.repo:hover {
+.repo:hover {
   background-color: black;
   color: white;
 }
@@ -86,7 +86,7 @@ a.repo:hover {
 .project {
   border-radius: 3px;
   flex: 1;
-  margin: 50px 0;
+  margin: 70px 0;
   padding: 40px;
   text-align: center;
 }
