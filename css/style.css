@@ -147,12 +147,12 @@ a.repo {
   margin: 10px;
 }
 
-.tech {
-  list-style-type: none;
+img.app-screenshot:hover {
+  background-color: gray;
 }
 
-#projects {
-  display: flex;
+.tech {
+  list-style-type: none;
 }
 
 /* MEDIA QUERY */
