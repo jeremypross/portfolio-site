@@ -1,21 +1,18 @@
 $(document).ready(() => {
-  console.log('js is linked');
+  console.log('js is linked!');
 
-  const $head = $('.head')
+  const $head         = $('.head')
   const $webDeveloper = $('#web-developer');
-  const $gitHub = $('#github');
-  const $linkedIn = $('#linkedin');
-  const $instagram = $('#instagram');
-  const $about = $('#about');
-  const $scroll = $('#land-scroll');
+  const $gitHub       = $('#github');
+  const $linkedIn     = $('#linkedin');
+  const $instagram    = $('#instagram');
+  const $about        = $('#about');
+  const $scroll       = $('#land-scroll');
 
-  let width = $(window).width();
-  let height = $(window).height();
+  let width           = $(window).width();
+  let height          = $(window).height();
   console.log('width:', width);
   console.log('height:', height);
-
-  // set width and height automatically
-  // position landing page accordingly
 
   // setTimeout for h1
   setTimeout(() => {
@@ -39,7 +36,7 @@ $(document).ready(() => {
     $instagram.addClass('animated fadeIn');
   }, 2600);
 
-  // setTimeout for about
+  // setTimeout for arrow
   setTimeout(() => {
     $scroll.css('visibility', 'visible');
     $scroll.addClass('animated rubberBand');
