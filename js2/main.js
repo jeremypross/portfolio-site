@@ -18,7 +18,7 @@ $(document).ready(() => {
   setTimeout(() => {
     $head.css('visibility', 'visible');
     $head.addClass('animated fadeInDownBig');
-  }, 400);
+  }, 200);
 
   // setTimeout for h2
   setTimeout(() => {
