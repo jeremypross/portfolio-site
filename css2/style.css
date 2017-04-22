@@ -99,6 +99,7 @@ a.repo {
   /*background-image: url("http://jeremypross.com/img/bio1.jpg");*/
   font-size: 3em;
   text-align: center;
+  line-height: 100px;
   width: 100%;
 }
 
@@ -111,8 +112,12 @@ a.repo {
   background-repeat: no-repeat;
   background-image: url("http://jeremypross.com/img/kitchensinkgraphic.jpg");
   font-size: 3em;
+  background-color: black;
+  color: white;
   text-align: center;
+  line-height: 100px;
   width: 100%;
+  padding: 40px 0;
 }
 
 .parallax1 {
@@ -122,10 +127,12 @@ a.repo {
   background-repeat: no-repeat;
   text-align: center;
   font-size: 3em;
-
-  /*background-image: url("http://jeremypross.com/img/lastcallgraphic.jpg");
-  height: 500px;*/
+  color: white;
+  background-image: url("http://jeremypross.com/img/lastcallgraphic.jpg");
+  line-height: 100px;
   width: 100%;
+  padding: 40px 0;
+
 }
 
 .parallax2 {
@@ -135,8 +142,12 @@ a.repo {
   background-repeat: no-repeat;
   text-align: center;
   font-size: 3em;
-  /*background-image: url("http://jeremypross.com/img/grand.jpg");*/
+  color: white;
+  line-height: 100px;
+  background-image: url("http://jeremypross.com/img/photoportfolio-graphic.jpg");
   width: 100%;
+  padding: 40px 0;
+
 }
 
 .whitespace {
@@ -167,5 +178,22 @@ img.app-screenshot:hover {
 @media(max-width: 700px) {
   .container {
     display: block;
+  }
+
+  .parallax, .parallax1, .parallax2 {
+    /* To fix the background image in place while the rest of the element moves */
+    background-attachment: fixed;
+    /* Position background image in the center and cover the element */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("http://jeremypross.com/img/kitchensinkgraphic.jpg");
+    font-size: 3em;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    width: 100%;
+    padding: 0;
   }
 }
