@@ -96,9 +96,10 @@ a.repo {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("http://jeremypross.com/img/bio1.jpg");
+  /*background-image: url("http://jeremypross.com/img/bio1.jpg");*/
+  font-size: 3em;
   text-align: center;
-  height: 500px;
+  width: 100%;
 }
 
 .parallax {
@@ -109,7 +110,9 @@ a.repo {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("http://jeremypross.com/img/kitchensinkgraphic.jpg");
-  height: 500px;
+  font-size: 3em;
+  text-align: center;
+  width: 100%;
 }
 
 .parallax1 {
@@ -118,8 +121,11 @@ a.repo {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
-  background-image: url("http://jeremypross.com/img/lastcallgraphic.jpg");
-  height: 500px;
+  font-size: 3em;
+
+  /*background-image: url("http://jeremypross.com/img/lastcallgraphic.jpg");
+  height: 500px;*/
+  width: 100%;
 }
 
 .parallax2 {
@@ -127,8 +133,10 @@ a.repo {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("http://jeremypross.com/img/grand.jpg");
-  height: 500px;
+  text-align: center;
+  font-size: 3em;
+  /*background-image: url("http://jeremypross.com/img/grand.jpg");*/
+  width: 100%;
 }
 
 .whitespace {
