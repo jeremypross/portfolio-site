@@ -1,7 +1,6 @@
 * {
   background-color: #FEFEFA;
   color: black;
-  padding: 5px;
   font-family: 'Raleway', sans-serif;
   /*font-family: 'Helvetica', sans-serif;*/
   -webkit-font-smoothing: antialiased;
@@ -61,10 +60,12 @@ footer {
 
 #web-developer, #github, #linkedin, #instagram  {
   visibility: hidden;
+  padding: 10px;
 }
 
 
 #icons {
+  padding-top: 15px;
   text-align: center;
 }
 
@@ -96,14 +97,18 @@ a.repo {
 
 .parallax-bio {
   background-attachment: fixed;
-  /*background-image: url("http://jeremypross.com/img/bio1.jpg");*/
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  font-size: 3em;
-  line-height: 75px;
+  background-size: cover;
+  font-size: 2.2em;
+  line-height: 55px;
+  padding: 55px 0;
   text-align: center;
   width: 100%;
+}
+
+.project-text {
+  padding: 40px;
 }
 
 .parallax {
@@ -114,11 +119,10 @@ a.repo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: black;
   color: white;
-  font-size: 3em;
-  line-height: 80px;
-  padding: 50px 0;
+  font-size: 1.6em;
+  line-height: 55px;
+  padding: 80px 0;
   text-align: center;
   width: 100%;
 }
@@ -130,12 +134,11 @@ a.repo {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  font-size: 3em;
-  line-height: 80px;
-  padding: 50px 0;
+  font-size: 1.6em;
+  line-height: 55px;
+  padding: 80px 0;
   text-align: center;
   width: 100%;
-
 }
 
 .parallax2 {
@@ -144,10 +147,10 @@ a.repo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 3em;
+  font-size: 1.6em;
   color: white;
-  line-height: 80px;
-  padding: 50px 0;
+  line-height: 55px;
+  padding: 80px 0;
   text-align: center;
   width: 100%;
 
@@ -175,6 +178,7 @@ img.app-screenshot:hover {
 
 .tech {
   list-style-type: none;
+  padding: 0;
 }
 
 /* MEDIA QUERY */
@@ -192,8 +196,8 @@ img.app-screenshot:hover {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    font-size: 3em;
-    line-height: 70px;
+    font-size: 1.5em;
+    line-height: 40px;
     padding: 20px 0;
     text-align: center;
     width: 100%;
