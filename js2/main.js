@@ -8,6 +8,7 @@ $(document).ready(() => {
   const $instagram    = $('#instagram');
   const $about        = $('#about');
   const $scroll       = $('#land-scroll');
+  const $nav          = $('#navbar')
 
   let width           = $(window).width();
   let height          = $(window).height();
@@ -17,14 +18,14 @@ $(document).ready(() => {
   // setTimeout for h1
   setTimeout(() => {
     $head.css('visibility', 'visible');
-    $head.addClass('animated fadeInDownBig');
+    $head.addClass('animated fadeIn');
   }, 200);
 
   // setTimeout for h2
   setTimeout(() => {
     $webDeveloper.css('visibility', 'visible');
     $webDeveloper.addClass('animated fadeIn');
-  }, 1600);
+  }, 800);
 
   // setTimeout for social media icons
   setTimeout(() => {
@@ -34,13 +35,18 @@ $(document).ready(() => {
     $linkedIn.addClass('animated fadeIn');
     $instagram.css('visibility', 'visible');
     $instagram.addClass('animated fadeIn');
-  }, 2600);
+  }, 1500);
 
   // setTimeout for arrow
   setTimeout(() => {
     $scroll.css('visibility', 'visible');
     $scroll.addClass('animated rubberBand');
-  }, 3200);
+  }, 2200);
+
+  setTimeout(() => {
+    $nav.css('visibility', 'visible');
+    $nav.addClass('animated fadeIn');
+  }, 2900);
 
 
 });

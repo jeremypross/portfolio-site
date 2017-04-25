@@ -9,7 +9,14 @@
 }
 
 nav {
+  padding-top: 10px;
   text-align: center;
+  visibility: hidden;
+}
+
+.nav-item {
+  display: inline;
+  padding: 10px 10px;
 }
 
 h1 {
