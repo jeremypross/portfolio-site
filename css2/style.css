@@ -19,6 +19,15 @@ nav {
   padding: 10px 25px;
 }
 
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 3em;
   margin: 0;
@@ -118,7 +127,7 @@ a.repo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 55px 0;
+  padding: 70px 0;
   text-align: center;
   width: 100%;
 }
@@ -189,6 +198,31 @@ a.repo {
 .parallax2 {
   background-attachment: fixed;
   background-image: url("http://jeremypross.com/img/photoportfolio-graphic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 0;
+  text-align: center;
+  width: 100%;
+
+}
+
+.project-text3 {
+  background-attachment: fixed;
+  background-image: url("http://jeremypross.com/img/ct.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 1.6em;
+  font-weight: bold;
+  line-height: 55px;
+  padding: 0 60px;
+}
+
+.parallax3 {
+  background-attachment: fixed;
+  background-image: url("http://jeremypross.com/img/ct.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
